@@ -32,3 +32,13 @@ Change the parameters of makeShoppingList() into default parameters :
 Assign ‘milk’ as the default value of item1.
 Assign ‘bread’ as the default value of item2.
 Assign ‘eggs’ as the default value of item3.
+
+
+Code:
+
+function makeShoppingList(item1 = 'milk', item2='bread', item3='eggs'){
+  console.log(`Remember to buy ${item1}`);
+  console.log(`Remember to buy ${item2}`);
+  console.log(`Remember to buy ${item3}`);
+}
+makeShoppingList();
