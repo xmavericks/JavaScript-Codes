@@ -19,3 +19,16 @@ When there isn’t an argument passed into greeting(), the default value of 'str
 By using a default parameter, we account for situations when an argument isn’t passed into a function that is expecting an argument.
 
 Let’s practice creating functions that use default parameters.
+
+
+1.
+The function makeShoppingList() creates a shopping list based on the items that are passed to the function as arguments.
+
+Imagine that you always purchase milk, bread, and eggs every time you go shopping for groceries. 
+To make creating a grocery list easier, let’s assign default values to the parameters in makeShoppingList().
+
+Change the parameters of makeShoppingList() into default parameters :
+
+Assign ‘milk’ as the default value of item1.
+Assign ‘bread’ as the default value of item2.
+Assign ‘eggs’ as the default value of item3.
